@@ -6,7 +6,7 @@
     display: inline-block;
     width: 75px;
     height: 75px;
-    background: url("src/images/back.png");
+    background: url("../images/back.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -19,7 +19,7 @@
     display: inline-block;
     width: 75px;
     height: 75px;
-    background: url("src/images/home.png");
+    background: url("../images/home.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
