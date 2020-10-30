@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.react-calendar {
+    width: 1000px;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+
+}
+
+.react-calendar__tile {
+    height: 100px;
+    font-size: 30px;
+    background-color: #f0f0f0;
+    color: #bbbbbb;
+    border: none;
+}
+
+.react-calendar__tile:hover {
+    border: 1px solid #bbbbbb;
+}
+
+.react-calendar__navigation {
+   .react-calendar__navigation__arrow {
+       font-size: 50px;
+       background-color: rgb(250, 250, 250);
+       border: none;
+       color: #61BC67;
+   }
+    .react-calendar__navigation__label {
+        background-color: rgb(250, 250, 250);
+        border: none;
+        font-size: 40px;
+        color: #A882BF;
+    }
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    font-size: 20px;
+    color: #A882BF;
+    margin-left: 50px;
+}
+
+.very-happy {
+    background: #61BC67;
+    color: rgb(250, 250, 250);
+}
+
+.slightly-happy {
+    background: #80A384;
+    color: rgb(250, 250, 250)
+}
+
+.meh {
+    background: #AEAEAE;
+    color: rgb(250, 250, 250)
+}
+
+.slightly-sad {
+    background: #CAB6D6;
+    color: rgb(250, 250, 250)
+}
+
+.very-sad {
+    background: #A882BF;
+    color: rgb(250, 250, 250)
+}
+
+.not-entered {
+    background-color: #f0f0f0;
+    color: #bbbbbb;
+}
+
+
