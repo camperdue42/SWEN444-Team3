@@ -1,0 +1,35 @@
+/* Banner Elements */
+.wrapper {
+    box-shadow: 5px 2px #bbbbbb;
+}
+.back {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: url("src/images/back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    border: none;
+}
+.home {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: url("src/images/home.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    left: 100px;
+    top: 0px;
+    border: none;
+}
+.right {
+    float: right;
+    font: 60px bold Roboto, sans-serif;
+    color: #A882BF;
+}

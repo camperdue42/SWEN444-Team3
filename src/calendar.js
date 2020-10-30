@@ -1,16 +1,33 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Calendar from 'react-calendar';
+import './css/calendar.scss';
+import Banner from './banner';
+
+class CalendarPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { classes: ['not-entered', 'very-happy', 'slightly-happy', 'meh', 'slightly-sad', 'very-sad'] };
+        this.tileClassName = this.tileClassName.bind(this);
+    }
 
 
-ReactDOM.render(
-    <React.StrictMode>
-        <head>
-            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-            <link href="./css/calendar.css" rel="stylesheet" />
-        </head>
-        <body>
+    tileClassName({date, view}) {
+        if (view === 'month'){
+            return this.state.classes[Math.floor(Math.random() * this.state.classes.length)];
+        }
 
-        </body>
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+    }
+
+    render() {
+        return (
+            <div>
+                <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+                <Banner />
+                <Calendar className="react-calendar" tileClassName={this.tileClassName}/>
+            </div>
+
+        );
+    }
+}
+export default CalendarPage;
+

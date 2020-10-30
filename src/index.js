@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-class HomeButton extends React.Component {
+/*class HomeButton extends React.Component {
   home() {
 
   }
@@ -23,6 +23,8 @@ class HomeButton extends React.Component {
 };
 
 ReactDOM.render(<HomeButton />, "src/html-css-starter-files/test/index.html".getElementById(home));
+
+ */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
