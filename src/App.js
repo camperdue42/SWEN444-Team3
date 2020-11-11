@@ -1,10 +1,9 @@
-import './App.css';
 import React from 'react'
-import CalendarPage from "./calendar";
+import HomePage from "./home";
 
 function App() {
   return (
-    <CalendarPage />
+    <HomePage/>
   );
 }
 
