@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 // This Module defines the UI components of the Chat page
 
-class chat extends React.Component {
+class ChatPage extends React.Component {
     render() {
         return (
             <div>
@@ -97,4 +97,4 @@ class Menu extends React.Component {
 }
 
 
-export default chat;
+export default ChatPage;
