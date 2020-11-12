@@ -1,0 +1,139 @@
+#e1_30 { 
+	position:relative;
+	background-color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:1920px;
+	height:1080px;
+}
+#e1_2 { 
+	background-color:rgba(250.00000029802322, 250.00000029802322, 250.00000029802322, 1);
+	opacity:1;
+	width:1920px;
+	height:1080px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#e1_35 { 
+	opacity:1;
+	width:1920px;
+	height:78px;
+	position:absolute;
+	left:0px;
+	top:36px;
+}
+#e1_36 { 
+	transform: rotate(-0.11936603017847756deg);
+	opacity:1;
+	border:3px solid rgba(187.00000405311584, 187.00000405311584, 187.00000405311584, 1);
+	position:absolute;
+	left:0px;
+	top:114px;
+}
+#e1_37 { 
+	color:rgba(168.0000051856041, 130.0000074505806, 191.00000381469727, 1);
+	opacity:1;
+	width:119px;
+	height:56px;
+	position:absolute;
+	left:1774px;
+	top:36px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e1_38 { 
+	color:rgba(97.16562733054161, 188.06250303983688, 103.3430926501751, 1);
+	opacity:1;
+	width:128px;
+	height:56px;
+	position:absolute;
+	left:48px;
+	top:36px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e1_62 { 
+	opacity:1;
+	width:951px;
+	height:585px;
+	position:absolute;
+	left:485px;
+	top:247px;
+}
+#e1_63 { 
+	opacity:1;
+	width:574px;
+	height:585px;
+	position:absolute;
+	left:862px;
+	top:247px;
+}
+#e1_64 { 
+	border-radius:500px;
+	background-color:rgba(168.0000051856041, 130.0000074505806, 191.00000381469727, 0.75);
+	opacity:1;
+	width:574px;
+	height:585px;
+	position:absolute;
+	left:862px;
+	top:247px;
+}
+#e1_65 { 
+	color:rgba(250.00000029802322, 250.00000029802322, 250.00000029802322, 1);
+	opacity:1;
+	width:201px;
+	height:113px;
+	position:absolute;
+	left:1105px;
+	top:483px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:96px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e1_66 { 
+	opacity:1;
+	width:575px;
+	height:575px;
+	position:absolute;
+	left:485px;
+	top:252px;
+}
+#e1_67 { 
+	border-radius:500px;
+	background-color:rgba(116.00000068545341, 219.0000021457672, 123.0000002682209, 0.75);
+	opacity:1;
+	width:575px;
+	height:575px;
+	position:absolute;
+	left:485px;
+	top:252px;
+}
+#e1_68 { 
+	color:rgba(250.00000029802322, 250.00000029802322, 250.00000029802322, 1);
+	opacity:1;
+	width:247px;
+	height:113px;
+	position:absolute;
+	left:575px;
+	top:483px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:96px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #bbbbbb;
+	width: 100%;
+}
