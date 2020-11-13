@@ -1,11 +1,12 @@
-import './App.css';
 import React from 'react'
-import CalendarPage from "./calendar";
-import ChatPage from "./chat"
+import HomePage from "./home";
+import JournalSurvey from "./journal-survey";
+import Report from "./report";
+import Rating from "./rating";
 
 function App() {
   return (
-    <ChatPage />
+    <Rating/>
   );
 }
 
