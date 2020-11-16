@@ -43,7 +43,8 @@ class CalendarPage extends React.Component {
         return (
             <div>
                 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-                <Banner />
+                <Banner back="/new-entry"/>
+                <hr />
                 <Modal show={this.state.modalIsOpen} onHide={this.closeModal} className="modal">
                     <Modal.Header>
                         <Modal.Title className="modalTitle">

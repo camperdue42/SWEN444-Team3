@@ -1,6 +1,8 @@
-import './chat.css';
+import './css/chat.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Banner from './banner';
+import './css/chat.css';
+import {Link} from "react-router-dom";
 
 // This Module defines the UI components of the Chat page
 
@@ -9,7 +11,8 @@ class ChatPage extends React.Component {
         return (
             <div>
                 <div>
-                    <Banner></Banner>
+                    <Banner back="/rating"/>
+                    <hr />
                 </div>
                 <div class="body">
                     <Chat></Chat>
@@ -20,26 +23,7 @@ class ChatPage extends React.Component {
     }
 }
 
-class Banner extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-                        username : "Chet"
-                     };
-    }
 
-    render() {
-        return ( 
-            <div class="wrapper">
-                <button class="back"></button>
-                <button class="home"></button>
-                <span class="right">
-                    Hi, {this.state.username}!
-                </span>
-            </div>
-        );
-    }
-}
 
 class Chat extends React.Component {
     render() {
@@ -82,16 +66,21 @@ class Menu extends React.Component {
               <div class="side-window">
                   <div class="side-box">
                     <div class="side-button-container">
-                        <button class="end-button"> End Conversation </button>
-                        <button class="report-button"></button>
+                        <Link to="/rating">
+                            <button className="end-button"> End Conversation</button>
+                        </Link>
+                        <Link to="/report">
+                            <button className="report-button"></button>
+                        </Link>
                     </div>
                     <div class="facts-grid">
-                        <div class="facts"> Things you have in common: </div>
+                        <span class="facts" style={{color: "#61BC67"}}> <h3>Things you have in common:</h3></span>
                         {this.state.common_facts}
                     </div>
                   </div>
                 </div>
             </div>
+
         );
     }
 }

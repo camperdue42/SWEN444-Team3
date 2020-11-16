@@ -1,4 +1,6 @@
-#e1_30 { 
+
+
+#e1_30 {
 	position:relative;
 	background-color:rgba(255, 255, 255, 1);
 	opacity:1;
@@ -14,6 +16,7 @@
 	left:0px;
 	top:0px;
 }
+
 #e1_35 { 
 	opacity:1;
 	width:1920px;

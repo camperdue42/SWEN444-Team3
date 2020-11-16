@@ -1,8 +1,8 @@
 import React from 'react';
 import Banner from "./banner";
 import './css/report.css';
-import {Dropdown, DropdownButton} from "react-bootstrap";
-import DropdownItem from "react-bootstrap/DropdownItem";
+import {Link} from "react-router-dom";
+
 
 class Report extends React.Component {
     constructor(props) {
@@ -13,9 +13,10 @@ class Report extends React.Component {
         return(
             <div>
                 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-                <Banner/>
+                <Banner back="/"/>
                 <h1 id='title'>Report a User</h1>
-                    <form onSubmit={alert("Report received.")}>
+                <div id='form'>
+                    <form>
                         <label>
                             Reason for Reporting:
                             <select>
@@ -29,8 +30,11 @@ class Report extends React.Component {
                             Details (optional):
                             <textarea></textarea>
                         </label>
-                        <input type='submit' value='Submit'/>
+                        <Link to="/">
+                            <input type='submit' value='Submit'/>
+                        </Link>
                     </form>
+                </div>
             </div>
         );
     }

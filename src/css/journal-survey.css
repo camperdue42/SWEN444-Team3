@@ -1,4 +1,10 @@
-#e1_30 { 
+* {
+	font-family: Roboto;
+}
+
+
+
+#e1_30 {
 	position:relative;
 	background-color:rgba(255, 255, 255, 1);
 	opacity:1;
@@ -87,14 +93,14 @@
 #e1_65 { 
 	color:rgba(250.00000029802322, 250.00000029802322, 250.00000029802322, 1);
 	opacity:1;
-	width:201px;
+	width:300px;
 	height:113px;
 	position:absolute;
 	left:1105px;
 	top:483px;
 	font-family:Roboto;
 	text-align:left;
-	font-size:96px;
+	font-size:90px;
 	letter-spacing:0;
 	line-height:undefined;
 }
@@ -119,10 +125,10 @@
 #e1_68 { 
 	color:rgba(250.00000029802322, 250.00000029802322, 250.00000029802322, 1);
 	opacity:1;
-	width:247px;
+	width:400px;
 	height:113px;
 	position:absolute;
-	left:575px;
+	left:525px;
 	top:483px;
 	font-family:Roboto;
 	text-align:left;

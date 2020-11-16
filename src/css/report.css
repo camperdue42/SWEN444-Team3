@@ -1,19 +1,31 @@
+* {
+    text-decoration: none;
+}
+
 #title {
     color: #A882BF;
     font-size: 70px;
     text-align: center;
     font-weight: normal;
+    top: 5%;
 }
 
-form label {
+#form {
+    text-align: center;
+}
+label, input {
+    display: block;
+    position: relative;
+}
+
+label {
     color: #61BC67;
     font-size: 40px;
     display: block;
     text-align: center;
 }
 
-form select {
-    margin-left: 2%;
+select {
     font-size: 20px;
     height: 40px;
     color: #AEAEAE;
@@ -21,7 +33,7 @@ form select {
     border: none;
 }
 
-form textarea {
+textarea {
     margin-top: 2%;
     margin-left: 5%;
     width: 200px;
@@ -31,13 +43,17 @@ form textarea {
     font-size: 15px;
 }
 
-form input {
-    padding: 0.5%;
+input {
     background-color: #61BC67;
     color: rgb(250, 250, 250);
+    position: relative;
     border: none;
     font-size: 30px;
-    margin-left: 48%;
-    margin-top: 4%;
+    width: 10%;
+    height: 100%;
+    left: 45%;
+
 }
+
+
 

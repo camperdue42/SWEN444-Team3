@@ -1,20 +1,23 @@
 import React from 'react';
 import './css/banner.css';
+import {Link} from "react-router-dom";
 
 class Banner extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            username : "Chet"
-        };
+
     }
     render() {
         return (
             <div class="wrapper">
-                <button class="back"></button>
-                <button class="home"></button>
+                <Link to={this.props.back}>
+                    <button className="back"></button>
+                </Link>
+                <Link to="/">
+                    <button className="home"></button>
+                </Link>
                 <span class="right">
-                    <span style={{color: '#61BC67'}}>Hi,</span> {this.state.username}!
+                    <span style={{color: '#61BC67'}}>Hi,</span> <span className='chet'>Chet!</span>
                 </span>
             </div>
         );
