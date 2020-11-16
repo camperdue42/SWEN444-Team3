@@ -1,4 +1,5 @@
 /* Banner Elements */
+
 .wrapper {
     box-shadow: 5px 2px #bbbbbb;
 }
@@ -32,4 +33,8 @@
     float: right;
     font: 60px bold Roboto, sans-serif;
     color: #A882BF;
+}
+
+.chet {
+    font-family: Roboto, sans-serif;
 }
